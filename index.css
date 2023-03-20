@@ -1,0 +1,165 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    background-color: #EEEE;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+label {
+    font-weight: bold;
+    cursor: text;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 105vh;
+    /* border: 1px solid; */
+}
+
+.header {
+    padding: 10px;
+    width: 51%;
+}
+
+.header-judul {
+    margin-bottom: 15px;
+}
+
+.deskripsi-fitur {
+    padding: 10px;
+    width: 51%;
+}
+
+.item-list {
+    margin-left: 2.5%;
+}
+
+.paragraf-deskripsi {
+    margin-top: 2%;
+}
+
+.container-atas {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    border: 1px solid;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px rgb(110, 104, 104);
+    padding: 10px;
+}
+
+.container-bawah {
+    text-align: center;
+    margin: 10px 0 0 0;
+    width: 50%;
+    border: 1px solid;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px rgb(110, 104, 104);
+    padding: 10px 10px 20px 10px;
+}
+
+.identitas {
+    margin: 0 0 15px 0;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid;
+}
+
+.icon{
+    width: 18.5px;
+    margin: 0;
+}
+
+.input {
+    width: 100%;
+    padding-left: 4px;
+    border: none;
+    border-radius: 0px;
+    background-color: white;
+}
+
+.input:focus {
+    outline: none;
+    border: none;
+}
+
+.submit {
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    background-color: rgb(13, 231, 231);
+    cursor: pointer;
+}
+
+.reset {
+    border: none;
+    border-radius: 4px;
+    padding: 8.5px;
+    color: black;
+    background-color: white;
+    cursor: pointer;
+}
+
+#deskripsi-satu {
+    font-size: 2.6vh;
+}
+
+#BMI {
+    margin-top: 8px;
+    font-size: 4vh;
+}
+
+#deskripsi-dua {
+    margin: 10px 0 20px 0;
+    font-size: 2vh;
+}
+
+#gender {
+    margin: 20px;
+}
+
+.link {
+    background-color: rgb(13, 231, 231);
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+.obesitas-description {
+    padding: 10px;
+    width: 51%;    
+}
+
+.obesitas-description a{
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgb(13, 231, 231);
+    text-decoration: none;
+    color: white;
+}
+
+#header-obesitas {
+    margin-bottom: 10px;
+}
+
+#paragraf-obesitas{
+    margin-bottom: 20px;
+}
+
+#paragraf-tambahan {
+    margin-top: 20px;
+}

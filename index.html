@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <script src="index.js"></script>
+    <title>Kalkulator BMI</title>
+</head>
+<body>
+    <form onsubmit="validate()" id="form" class="form-input" method="GET" action="#">
+        <div class="wrapper">
+            <div class="header">
+                <h3 class="header-judul" style="font-size: 150%;">Kalkulator BMI</h3>
+                <p>Berat badan ideal adalah impian semua orang. Tidak hanya memiliki bentuk tubuh yang menunjang penampilan, berat badan ideal juga menandakan kondisi tubuh yang sehat. Bagaimana denganmu? Yuk, hitung sekarang di kalkulator BMI.</p>
+            </div>
+            <div class="container-atas">
+                <label>Jenis Kelamin</label>
+                <div class="identitas">
+                    <input type="radio" name="jenis-kelamin" id="pria" value="pria"/>
+                    <label for="jenis-kelamin">Pria</label>
+                    <input type="radio" name="jenis-kelamin" id="wanita" value="wanita"/>
+                    <label for="jenis-kelamin">Wanita</label>
+                    <p class="text-error" style="color: red;"></p>
+                </div>
+
+                <div class="menu">
+                    <label>Berat Badan (kg)</label>
+                    <div class="content">
+                        <img src="assets/icon-pensil.jpg" alt="" class="icon"/>
+                        <input type="text" id="berat" class="input" placeholder="Berat diantara 0 sampai 200 kilogram">
+                    </div>
+                    <p class="text-error" style="color: red;"></p>
+                </div>
+
+                <div class="menu">
+                    <label>Usia (tahun)</label>
+                    <div class="content">
+                        <img src="assets/icon-pensil.jpg" alt="" class="icon"/>
+                        <input type="text" id="usia" class="input"/ placeholder="Usia diantara 18 sampai 100 tahun">
+                    </div>
+                    <p class="text-error" style="color: red;"></p>
+                </div>
+
+                <div class="menu">
+                    <label>Tinggi badan (cm)</label>
+                    <div class="content">
+                        <img src="assets/icon-pensil.jpg" alt="" class="icon" />
+                        <input type="text" id="tinggi" class="input" placeholder="Tinggi diantara 50 dan 200 centimeter"/>
+                    </div>
+                    <p class="text-error" style="color: red;"></p>
+                </div>
+
+                <div class="submit-or-reset">
+                    <button type="submit" class="submit">Hitung BMI</button>
+                    <button type="reset" class="reset">Reset</button>
+                </div>
+            </div>
+            
+            <div class="deskripsi-fitur">
+                <p class="header-judul" style="font-size: 120%;">Keunggulan Fitur</p>
+                <ol class="item-list">
+                    <li>Menghitung berat badan</li>
+                    <li>Menentukan kategori berat badan ideal atau tidak</li>
+                    <li>Mempersiapkan program penurunan berat badan</li>
+                </ol>
+                <p class="paragraf-deskripsi">Kalkulator ini hanya boleh digunakan oleh orang dewasa (wanita hamil atau menyusui tidak boleh mengandalkan pembacaan BMI ini) dan tidak ada tindakan yang harus diambil berdasarkan nilainya selain berkonsultasi dengan orang yang memenuhi syarat seperti dokter.</p>
+                <p class="paragraf-deskripsi">Kalkulator akan memberi Anda gambaran tentang perbandingan berat badan Anda dengan nilai umum. Indeks Massa Tubuh (atau BMI) dihitung sebagai berat badan Anda (dalam kilogram) dibagi dengan kuadrat tinggi badan Anda (dalam meter) atau BMI = Kg/M<sup>2</sup></p>
+            </div>
+
+            <div class="container-bawah">
+                <p id="deskripsi-satu">(Hasil deskripsi anda ada disini)</p>
+                <p id="BMI">(Hasil BMI anda ada disini)</p>
+                <p id="deskripsi-dua">(Hasil deskripsi anda ada disini)</p>
+                <p id="gender">(Gender)</p>
+                <a href="#" class="link">Download Hasil BMI</a>
+            </div>
+
+            <div class="obesitas-description">
+                <p id="header-obesitas"></p>
+                <p id="paragraf-obesitas"></p>
+                <a href="#" id="link-obesitas-satu">Konsultasi Ahli Gizi Via Aplikasi</a>
+                <a href="#" id="link-obesitas-dua">Registrasi Online Ahli Gizi</a>
+                <p id="paragraf-tambahan"></p>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
